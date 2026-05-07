@@ -62,7 +62,7 @@ h2 {
     position: relative;
 }
 
-.youtube:hover, .discord:hover, .github:hover {
+.links a:hover {
     background: #e0e0e0;
     cursor: crosshair;
     color: #1a1a1b;
