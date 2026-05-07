@@ -1,0 +1,103 @@
+body {
+    background: #1a1a1b;
+    color: #e0e0e0;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    gap: 4rem;
+    pointer-events: all;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: -2px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    opacity: 0.6;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.youtube, .discord, .github {
+    width: 280px;
+    height: 280px;
+    border: 3px solid #e0e0e0;
+    transition: all 0.2s ease;
+    
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    cursor: crosshair;
+}
+
+
+.youtube { background: #452a2a; }
+.discord { background: #2a2a45; }
+.github  { background: #2a3b3b; }
+
+
+
+.links {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+
+.youtube:hover, .discord:hover, .github:hover {
+    background: #e0e0e0;
+    cursor: crosshair;
+    color: #1a1a1b;
+}
+
+
+.project-message {
+    color: #4f4;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    font-size: 0.7rem;
+    background: #000;
+    padding: 4px 8px;
+    pointer-events:none;
+    z-index: 10000;
+}
+
+
+body:active .project-message, body:active .counter{
+    color: #f44;
+}
+
+
+.counter {
+    color: #4f4;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+
+.noselect {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
