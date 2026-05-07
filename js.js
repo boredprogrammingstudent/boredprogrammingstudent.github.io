@@ -17,7 +17,7 @@ window.addEventListener('click', e => {
             title.textContent = "touch grass";
         }
         else if(counter >= 100){
-            title.textContent = "you have no life";
+            title.textContent = "this is pointless";
         }else{
             title.textContent = "why are you doing this?";
         }
