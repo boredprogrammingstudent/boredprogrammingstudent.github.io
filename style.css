@@ -30,7 +30,7 @@ h2 {
     gap: 2rem;
 }
 
-.youtube, .discord {
+.youtube, .discord, .github {
     width: 280px;
     height: 280px;
     position: relative;
@@ -40,6 +40,7 @@ h2 {
 
 .youtube { background: #452a2a; }
 .discord { background: #2a2a45; }
+.github  { background: #2a3b3b; }
 
 .links a {
     position: absolute;
@@ -61,11 +62,11 @@ h2 {
     cursor: crosshair;
 }
 
-.youtube:hover, .discord:hover {
+.youtube:hover, .discord:hover, .github:hover {
     background: #e0e0e0;
     cursor: crosshair;
 }
-.youtube:hover a, .discord:hover a {
+.youtube:hover a, .discord:hover a, .github:hover a {
     color: #1a1a1b;
 }
 
